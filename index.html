@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Currículo — Rian Felipe da Silva Silvestre</title>
+  <meta name="description" content="Currículo simples e objetivo de Rian Felipe da Silva Silvestre: Web Designer e Programador." />
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para conteúdo</a>
+
+  <header class="site-header" id="topo">
+    <div class="container header-inner">
+      <div class="brand">
+        <h1 class="nome">Rian Felipe da Silva Silvestre</h1>
+        <p class="titulo">Web Designer e Programador</p>
+      </div>
+      <nav class="nav">
+        <ul>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#experiencia">Experiência</a></li>
+          <li><a href="#formacao">Formação</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo" class="container">
+    <section id="sobre" class="secao">
+      <h2>Sobre</h2>
+      <p>Profissional focado em front-end e boas práticas. Crio interfaces limpas, responsivas e acessíveis. Escrevo código claro, reutilizável e orientado a resultados.</p>
+    </section>
+
+    <section id="habilidades" class="secao">
+      <h2>Habilidades</h2>
+      <ul class="skills-grid">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Versionamento (Git)</li>
+        <li>Noções de C#</li>
+        <li>ASP.NET Core</li>
+        <li>SQL</li>
+        <li>Design (layout responsivo, UI básica)</li>
+      </ul>
+    </section>
+
+    <section id="experiencia" class="secao">
+      <h2>Experiência</h2>
+      <article class="card">
+        <h3>Web Designer</h3>
+        <ul>
+          <li>Criação de layouts responsivos e consistentes.</li>
+          <li>Componentes reutilizáveis e padronização de UI.</li>
+          <li>Landing pages enxutas com foco em conversão.</li>
+          <li>Otimização básica de performance e acessibilidade.</li>
+        </ul>
+      </article>
+      <article class="card">
+        <h3>Programador</h3>
+        <ul>
+          <li>Páginas dinâmicas com JavaScript vanilla.</li>
+          <li>Integrações simples (APIs, formulários e validações).</li>
+          <li>Boas práticas: semântica, modularidade e clareza.</li>
+          <li>Organização do código e documentação objetiva.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="formacao" class="secao">
+      <h2>Formação</h2>
+      <p><strong>Análise e Desenvolvimento de Sistemas</strong> — cursando desde 2024.</p>
+    </section>
+
+    <section id="projetos" class="secao">
+      <h2>Projetos</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Landing Responsiva</h3>
+          <p>Single page enxuta com foco em conversão.</p>
+          <p><a href="#">Ver projeto</a></p>
+        </article>
+        <article class="card">
+          <h3>UI Components</h3>
+          <p>Biblioteca leve de componentes reutilizáveis.</p>
+          <p><a href="#">Ver projeto</a></p>
+        </article>
+        <article class="card">
+          <h3>Formulários Dinâmicos</h3>
+          <p>Validações e integração simples com API.</p>
+          <p><a href="#">Ver projeto</a></p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contato" class="secao">
+      <h2>Contato</h2>
+      <form class="contato-form" novalidate>
+        <div class="campo">
+          <label for="email">E-mail</label>
+          <input id="email" type="email" placeholder="seuemail@exemplo.com" autocomplete="email" />
+        </div>
+        <div class="campo">
+          <label for="telefone">Telefone/WhatsApp</label>
+          <input id="telefone" type="tel" placeholder="(00) 90000-0000" autocomplete="tel" />
+        </div>
+        <div class="campo">
+          <label for="cidade">Cidade</label>
+          <input id="cidade" type="text" placeholder="Sua cidade" autocomplete="address-level2" />
+        </div>
+        <div class="acoes">
+          <button type="button" class="btn" id="btnPrint">Baixar PDF</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="anoAtual"></span> Rian Felipe da Silva Silvestre</small>
+      <a class="top-link" href="#topo">Voltar ao topo</a>
+    </div>
+  </footer>
+</body>
+</html>
